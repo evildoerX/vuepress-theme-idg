@@ -1,12 +1,8 @@
-# Personal Documentation Theme for VuePress [![npm version](https://badge.fury.io/js/vuepress-theme-cool.svg)](https://badge.fury.io/js/vuepress-theme-cool)
+# Personal Documentation Theme for VuePress [![npm version](https://badge.fury.io/js/vuepress-theme-idg.svg)](https://badge.fury.io/js/vuepress-theme-idg)
 
 Currently, completely refactoring code for vuepress v1, all components should be compatible.
 
 This is the [VuePress](https://vuepress.vuejs.org/) theme used for personal documentation. It has libaries for markdown-based diagramming tools, sortable/filterable table components and chartjs.
-
-An example repo is available at [Vuepress Theme Cool Starter](https://FriendlyUser.github.io/vuepress-theme-cool-starter)
-
-[Demo](http://friendlyuser.github.io/vuepress-theme-cool-starter)
 
 ## Setup For Vuepress V1
 
@@ -15,7 +11,7 @@ An example repo is available at [Vuepress Theme Cool Starter](https://FriendlyUs
  
  2. Get the beta version of the theme (soon to be non beta)
     ```js
-    yarn install -D vuepress-theme-cool@1.0.3-beta
+    yarn install -D vuepress-theme-idg
     ```
   
   3. Set up `.vuepress/config.js`. A minimual setup is below, note that mermaid does not need to be included as a plugin.
@@ -24,7 +20,7 @@ An example repo is available at [Vuepress Theme Cool Starter](https://FriendlyUs
     // .vuepress/config.js
     // this represents the minimal configuration
     module.exports = {
-      theme: 'cool',
+      theme: 'idg',
       markdown: {
         extendMarkdown: md => {
           md.set({ html: true })
@@ -51,8 +47,6 @@ An example repo is available at [Vuepress Theme Cool Starter](https://FriendlyUs
 ├── foo
 ├──── README.md
 ├──── doc1.md
-└── cool
-├──── doc2.md
 ```
 
 If any issues arise, please review the documentation at https://v1.vuepress.vuejs.org/miscellaneous/migration-guide.html. The sample diagrams are components should work as it.
@@ -63,14 +57,14 @@ If any issues arise, please review the documentation at https://v1.vuepress.vuej
 2. Require this theme using the standard vuepress theme naming notation.
 
     ```js
-    yarn add -D vuepress-theme-cool
+    yarn add -D vuepress-theme-idg
     ```
 
 3. Set up `.vuepress/config.js`. A minimual setup is below, note that mermaid does not need to be included as a plugin.
     ```js
     // .vuepress/config.js
     module.exports = {
-      theme: 'cool',
+      theme: 'idg',
       markdown: {
         // options for markdown-it-anchor
         anchor: { permalink: true },
@@ -100,8 +94,6 @@ If any issues arise, please review the documentation at https://v1.vuepress.vuej
 ├── foo
 ├──── README.md
 ├──── doc1.md
-└── cool
-├──── doc2.md
 ```
 
 Also, make sure to include the scripts in package.json
@@ -174,7 +166,7 @@ Mermaid components can be used like
 ```js
 <mermaid>
 graph TD
-  A[Cool] -->|Get money| B(Go shopping)
+  A[idg] -->|Get money| B(Go shopping)
   B --> C{Let me}
   C -->|Two| D[Laptop]
   C -->|Two| E[iPhone]
