@@ -1,0 +1,5 @@
+.npmignore
+
+*.zip
+katex
+node_modules/

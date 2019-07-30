@@ -1,0 +1,25 @@
+{
+  "name": "vuepress-theme-idg",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "A idg theme that has integrated some vue components, charts via charts, and markdown based diagrams plantuml and mermaid.",
+  "repository": "https://github.com/evildoerX/vuepress-theme-idg",
+  "author": "evildoerX <evildoerX.ch@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vuepress"
+  ],
+  "dependencies": {
+    "chart.js": "^2.7.2",
+    "markdown-it-admonition": "^1.0.4",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-plantuml": "^1.1.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "mermaid": "^8.1.0",
+    "vue-chartkick": "^0.4.0",
+    "vue-cute-timeline": "^1.2.5",
+    "vue-good-table": "^2.16.0",
+    "vuex": "^3.0.1"
+  }
+}
