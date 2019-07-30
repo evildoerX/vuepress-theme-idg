@@ -11,7 +11,7 @@ This is the [VuePress](https://vuepress.vuejs.org/) theme used for personal docu
  
  2. Get the beta version of the theme (soon to be non beta)
     ```js
-    yarn install -D vuepress-theme-idg
+    yarn add vuepress-theme-idg -D
     ```
   
   3. Set up `.vuepress/config.js`. A minimual setup is below, note that mermaid does not need to be included as a plugin.
