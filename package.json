@@ -16,7 +16,7 @@
     "markdown-it-katex": "^2.0.3",
     "markdown-it-plantuml": "^1.1.0",
     "markdown-it-task-lists": "^2.1.1",
-    "mermaid": "^8.1.0",
+    "mermaid": "^9.1.2",
     "vue-chartkick": "^0.4.0",
     "vue-cute-timeline": "^1.2.5",
     "vue-good-table": "^2.16.0",
